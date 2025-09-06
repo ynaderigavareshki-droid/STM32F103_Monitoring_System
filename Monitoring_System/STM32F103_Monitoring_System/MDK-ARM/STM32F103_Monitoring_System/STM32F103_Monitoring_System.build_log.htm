@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.42.0.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: y s, n, LIC=V85FJ-UPYX8-685FC-7Q359-IBFKG-JUE7K
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.42.0.0
+Toolchain Path:  C:\Users\s\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.23
+Assembler:       Armasm.exe V6.23
+Linker/Locator:  ArmLink.exe V6.23
+Library Manager: ArmAr.exe V6.23
+Hex Converter:   FromElf.exe V6.23
+CPU DLL:         SARMCM3.DLL V5.42.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\tamrin\STM_FreeRTOS_Example\projects\New folder\STM32F103_Monitoring_System\MDK-ARM\STM32F103_Monitoring_System.uvprojx
+Project File Date:  09/05/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.23', folder: 'C:\Users\s\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'STM32F103_Monitoring_System'
+"STM32F103_Monitoring_System\STM32F103_Monitoring_System.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+   * Component: RTOS2 Version: 2.3.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-FreeRTOS.10.5.1.pack
+                ARM::CMSIS-FreeRTOS@10.5.1
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: FreeRTOS Variant: Cortex-M Version: 10.5.1
+   * Component: Config Variant: CMSIS RTOS2 Version: 10.5.1
+   * Component: Core Variant: Cortex-M Version: 10.5.1
+   * Component: Event Groups Version: 10.5.1
+   * Component: Heap Variant: Heap_4 Version: 10.5.1
+   * Component: Timers Version: 10.5.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil::STM32F1xx_DFP@2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103RB
+  ./RTE/RTOS
+  ./RTE/_STM32F103_Monitoring_System
+  C:/Users/s/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include
+  C:/Users/s/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include
+  C:/Users/s/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3
+  C:/Users/s/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/s/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include
+  C:/Users/s/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: ARM::CMSIS:RTOS2:FreeRTOS&Cortex-M@10.5.1
+      Source file:   CMSIS/RTOS2/FreeRTOS/Source/os_systick.c
+      Source file:   CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c
+      Source file:   CMSIS/RTOS2/FreeRTOS/Source/ARM/clib_arm.c
+      Include file:  CMSIS/RTOS2/FreeRTOS/Include/freertos_mpool.h
+
+   * Component: ARM::RTOS&FreeRTOS:Config&CMSIS RTOS2@10.5.1
+      Include file:  CMSIS/RTOS2/FreeRTOS/Config/ARMCM/FreeRTOSConfig.h
+
+   * Component: ARM::RTOS&FreeRTOS:Core&Cortex-M@10.5.1
+      Include file:  Source/include/FreeRTOS.h
+      Include file:  Source/include/queue.h
+      Include file:  Source/include/semphr.h
+      Include file:  Source/include/task.h
+      Source file:   Source/list.c
+      Source file:   Source/tasks.c
+      Source file:   Source/queue.c
+      Source file:   Source/portable/GCC/ARM_CM3/port.c
+      Source file:   CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c
+
+   * Component: ARM::RTOS&FreeRTOS:Event Groups@10.5.1
+      Source file:   Source/event_groups.c
+      Include file:  Source/include/event_groups.h
+
+   * Component: ARM::RTOS&FreeRTOS:Heap&Heap_4@10.5.1
+      Source file:   Source/portable/MemMang/heap_4.c
+
+   * Component: ARM::RTOS&FreeRTOS:Timers@10.5.1
+      Include file:  Source/include/timers.h
+      Source file:   Source/timers.c
+
+   * Component: CMSIS:RTOS2(API)@2.3.0
+      Include file:  CMSIS/RTOS2/Include/cmsis_os2.h
+
+   * Component: Keil::Device:Startup@1.0.0
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/system_stm32f10x.c
+      Include file:  RTE_Driver/Config/RTE_Device.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
