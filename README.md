@@ -1,10 +1,10 @@
 # STM32F103_Monitoring_System
 
-A comprehensive real-time monitoring system for STM32F103 microcontrollers using ESP8266 as a web interface and MQTT bridge. This project provides a professional web-based dashboard for monitoring system health, sensor data, and error reporting.
+A comprehensive real-time monitoring system for STM32F103 microcontrollers using FreeRTOS, ESP8266 as a web interface and MQTT bridge. This project provides a professional web-based dashboard for monitoring system health, sensor data, and error reporting.
 
 ## ✨ Features
 
-- Real-time monitoring of STM32F103 microcontroller
+- Real-time monitoring of STM32F103 microcontroller using FreeRTOS
 - Web interface via ESP8266 Wi-Fi module
 - MQTT protocol for data transmission
 - Professional dashboard for system health monitoring
@@ -21,6 +21,7 @@ A comprehensive real-time monitoring system for STM32F103 microcontrollers using
 ## 📋 Software Requirements
 
 - STM32CubeIDE or preferred STM32 development environment
+- FreeRTOS
 - Arduino IDE (for ESP8266 programming if needed)
 - MQTT broker (e.g., Mosquitto)
 - Web browser for dashboard access
